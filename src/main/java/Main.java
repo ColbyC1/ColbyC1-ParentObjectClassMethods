@@ -13,7 +13,7 @@ public class Main {
         sc1.b = true;
         sc2.b = true;
 
-        System.out.println("equals...");
+        System.out.println("\nequals...");
         System.out.println("Comparing 'SampleClass' object 1 with the same values in 'SampleClass' object 2\nExpected Output: true\nActual Output: " + sc1.equals(sc2));
         sc1.a = 2;
         sc2.a = 7;
